@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{92859FAF-7D35-40B1-BE24-168754B074C7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Games</RootNamespace>
+    <AssemblyName>Games</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Controles\ConnectionString.cs" />
+    <Compile Include="Forms\Controles\Query.cs" />
+    <Compile Include="Forms\info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\info.Designer.cs">
+      <DependentUpon>info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Training\Attentions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Training\Attentions.Designer.cs">
+      <DependentUpon>Attentions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Training\Card.cs" />
+    <Compile Include="Forms\Training\fifteen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Training\fifteen.Designer.cs">
+      <DependentUpon>fifteen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Training\Info\Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Training\Info\Information.Designer.cs">
+      <DependentUpon>Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Training\Info\Rating.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Training\Info\Rating.Designer.cs">
+      <DependentUpon>Rating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Training\LeftUpRightDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Training\LeftUpRightDown.Designer.cs">
+      <DependentUpon>LeftUpRightDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Training\Math.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Training\Math.Designer.cs">
+      <DependentUpon>Math.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Training\Memorina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Training\Memorina.Designer.cs">
+      <DependentUpon>Memorina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Training\Memorys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Training\Memorys.Designer.cs">
+      <DependentUpon>Memorys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Training\Mind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Training\Mind.Designer.cs">
+      <DependentUpon>Mind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Training\NumberMemory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Training\NumberMemory.Designer.cs">
+      <DependentUpon>NumberMemory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RegName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RegName.Designer.cs">
+      <DependentUpon>RegName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Training\TableShulte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Training\TableShulte.Designer.cs">
+      <DependentUpon>TableShulte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RJMessageBox.cs" />
+    <EmbeddedResource Include="Forms\info.resx">
+      <DependentUpon>info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RegName.resx">
+      <DependentUpon>RegName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Training\Attentions.resx">
+      <DependentUpon>Attentions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Training\fifteen.resx">
+      <DependentUpon>fifteen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Training\Info\Information.resx">
+      <DependentUpon>Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Training\Info\Rating.resx">
+      <DependentUpon>Rating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Training\LeftUpRightDown.resx">
+      <DependentUpon>LeftUpRightDown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Training\Math.resx">
+      <DependentUpon>Math.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Training\Memorina.resx">
+      <DependentUpon>Memorina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Training\Memorys.resx">
+      <DependentUpon>Memorys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Training\Mind.resx">
+      <DependentUpon>Mind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Training\NumberMemory.resx">
+      <DependentUpon>NumberMemory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Training\TableShulte.resx">
+      <DependentUpon>TableShulte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Memorinas\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Memorinas\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Memorinas\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Memorinas\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Memorinas\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Memorinas\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Memorinas\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Memorinas\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Memorinas\question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\nin\gg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\nin\s1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\nin\s2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\nin\s3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\nin\s4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\nin\s5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\nin\s6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\nin\s7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\nin\s8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\nin\s9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Attention\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Attention\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Attention\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Attention\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Memorinas\14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Memorinas\15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Memorinas\16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Memorinas\17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Memorinas\18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Memorinas\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Memorinas\12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Memorinas\13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

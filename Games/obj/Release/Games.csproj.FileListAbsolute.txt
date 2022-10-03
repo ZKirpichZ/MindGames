@@ -1,0 +1,14 @@
+C:\Users\zkirp\OneDrive\Рабочий стол\Диплом\Games\Games\bin\Release\Games.exe.config
+C:\Users\zkirp\OneDrive\Рабочий стол\Диплом\Games\Games\bin\Release\Games.exe
+C:\Users\zkirp\OneDrive\Рабочий стол\Диплом\Games\Games\bin\Release\Games.pdb
+C:\Users\zkirp\OneDrive\Рабочий стол\Диплом\Games\Games\obj\Release\Games.csproj.AssemblyReference.cache
+C:\Users\zkirp\OneDrive\Рабочий стол\Диплом\Games\Games\obj\Release\Games.csproj.SuggestedBindingRedirects.cache
+C:\Users\zkirp\OneDrive\Рабочий стол\Диплом\Games\Games\obj\Release\Games.Forms.Main.resources
+C:\Users\zkirp\OneDrive\Рабочий стол\Диплом\Games\Games\obj\Release\Games.Menu.resources
+C:\Users\zkirp\OneDrive\Рабочий стол\Диплом\Games\Games\obj\Release\Games.Forms.Training.Memory.resources
+C:\Users\zkirp\OneDrive\Рабочий стол\Диплом\Games\Games\obj\Release\Games.Forms.Training.TableShulte.resources
+C:\Users\zkirp\OneDrive\Рабочий стол\Диплом\Games\Games\obj\Release\Games.Properties.Resources.resources
+C:\Users\zkirp\OneDrive\Рабочий стол\Диплом\Games\Games\obj\Release\Games.csproj.GenerateResource.cache
+C:\Users\zkirp\OneDrive\Рабочий стол\Диплом\Games\Games\obj\Release\Games.csproj.CoreCompileInputs.cache
+C:\Users\zkirp\OneDrive\Рабочий стол\Диплом\Games\Games\obj\Release\Games.exe
+C:\Users\zkirp\OneDrive\Рабочий стол\Диплом\Games\Games\obj\Release\Games.pdb
